@@ -1,0 +1,14 @@
+name: Shreyansh mishra
+
+on:
+  push:
+     branches: [ main ]
+
+ job:
+    Demo:
+      run-on: ubantu-latest
+
+      step:
+       - name: Gretting 
+        run: echo "hello shreyansh"
+   

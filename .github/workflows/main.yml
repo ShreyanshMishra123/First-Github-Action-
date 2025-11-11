@@ -4,11 +4,11 @@ on:
   push:
      branches: [ main ]
 
- job:
-    Demo:
-      run-on: ubantu-latest
+jobs:
+  Demo:
+   run-on: ubantu-latest
 
-      step:
+     steps:
        - name: Gretting 
-        run: echo "hello shreyansh"
+         run: echo "hello shreyansh"
    

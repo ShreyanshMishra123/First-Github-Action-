@@ -6,9 +6,9 @@ on:
 
 jobs:
   Demo:
-   run-on: ubantu-latest
+   runs-on: ubantu-latest
 
-     steps:
-       - name: Gretting 
-         run: echo "hello shreyansh"
+   steps:
+     - name: Gretting 
+       run: echo "hello shreyansh"
    
